@@ -69,7 +69,7 @@ h1 {
     font-size: 1.5rem;
 }
 
-.features,  {
-    color:aqua
+#features p {
+    color: #8f8f8f;
 }
 
