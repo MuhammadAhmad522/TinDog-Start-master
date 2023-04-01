@@ -60,4 +60,16 @@ h1 {
     transform: rotate(25deg);
  }
 
+/* Features */
+
+.features-heading {
+
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.features,  {
+    color:aqua
+}
 
