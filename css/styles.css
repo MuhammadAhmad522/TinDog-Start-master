@@ -60,8 +60,10 @@ h1 {
     font-weight: 300;
 }
 
+#navbarSupportedContent {
 
-
+    text-align: right;
+}
 
 
 /* Download Buttons */
