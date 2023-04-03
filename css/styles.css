@@ -47,6 +47,10 @@ h1 {
     font-weight: 300;
 }
 
+
+
+
+
 /* Download Buttons */
 
 .download-button {
@@ -54,14 +58,28 @@ h1 {
     margin: 5% 3% 5% 0;
 }
 
+
+
+
 /* Title Image */
  .title-image {
     width: 60%;
     transform: rotate(25deg);
  }
 
+
+
+
 /* Features */
 
+#features {
+    padding: 7% 15%;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
 .features-heading {
 
     font-family: 'Montserrat';
@@ -73,3 +91,56 @@ h1 {
     color: #8f8f8f;
 }
 
+#features i {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+
+#features i:hover {
+    color: #ff4c68;
+}
+
+
+
+/* Testimonial Section */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+#testimonials h2 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#testimonials img {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+
+}
+
+
+ /* Press Section */
+
+ #press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    text-align: center;
+  
+}
+
+
+ #press img {
+    width: 15%;
+    margin: 20px 20px 50px;
+ }
