@@ -24,15 +24,22 @@ p {
     padding: 7% 15%;
 }
 
+/* Sections */
 
-
-/* Title Section */
-#title {
+.colored-section {
     background-color: #ff4c68;
-    text-align: left;
+    color: #fff;
 }
 
+.white-section {
+
+    background-color: #fff;
+}
+
+/* Title Section */
+
 #title .container-fluid {
+    text-align: left;
     padding: 3% 15% 7%;
 }
 
@@ -90,10 +97,9 @@ p {
 }
 
 
-/* Features */
+/* Features Section*/
 
 #features {
-    background-color: #fff;
     position: relative;
 }
 
@@ -107,7 +113,7 @@ p {
     font-size: 1.5rem;
 }
 
-
+/* Feature Icons */
 #features i {
     color: #ef8172;
     margin-bottom: 1rem;
@@ -169,28 +175,6 @@ p {
     background-color: #fff;
     border: none;
 }
-
-
-
-/* Call to Action Section */
-
-#cta {
-    font-family: "Montserrat-Bold";
-    font-weight: 600;
-    background-color: #ff4c68;
-}
-
-.end-heading {
-    font-family: "Montserrat-Black";
-    font-size: 3.5rem;
-    line-height: 1.5;
-    color: #fff;
-}
-
-.download-btn {
-    margin: 5% 5% 0;
-}
-
 
 
 /* footer */
